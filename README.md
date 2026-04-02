@@ -1,2 +1,20 @@
 # Unemployment Trend Analysis & Forecasting (San Diego County)
-Analysis of long-term unemployment trends in San Diego County using LAUS data, including regression modeling, statistical testing, and pandemic impact evaluation.
+This project analyzes long-term unemployment trends in San Diego County using data from the Local Area Unemployment Statistics (LAUS) dataset. The goal is to understand how unemployment rates change over time, evaluate the seasonal patterns, and assess the impact of major external events such as the COVID-19 pandemic.
+
+## Dataset
+- Source: Local Area Unemployment Statistics (LAUS)
+- Region: San Diego County
+- Time Period: 1990-2024
+
+## Tools & Methods
+- R
+- Data cleaning and exploratory data analysis (EDA)
+- Statistical testing: ANOVA
+- Bootstrap resampling for inference
+- Linear regression modeling
+
+## Key Findings
+- No statistically significant differences in unemployment rates across seasons
+- Unemployment rates increased significantly following the COVID-19 pandemic (around a 1% increase on average)
+- Time was a statistically significant predictor, but linear regression failed to capture nonlinear trends
+- Extreme outliers in 2020-2021 highlight the impact of unexpected economic shocks
