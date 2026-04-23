@@ -26,6 +26,16 @@ This project analyzes long-term unemployment trends in San Diego County using Lo
 - Long-term trend shows time is a significant predictor, but simple linear models fail to capture nonlinear fluctuations
 - Outlier analysis highlights the impact of economic shocks, emphasizing the need for robust modeling approaches
 
+## Visualizations
+### Distribution of Unemployment Rate
+![Histogram](images/histogram.png)
+
+### Unemployment by Season
+![Season Boxplot](images/season_boxplot.png)
+
+### Unemployment Trend Over Time
+![Trend Plot](images/trend_plot.png)
+
 ## Business / Policy Implications
 - Short-term economic shocks (e.g., pandemics) can dramatically impact unemployment but may not permanently alter long-term trends
 - Policymakers should focus on resilience strategies rather than seasonal interventions
